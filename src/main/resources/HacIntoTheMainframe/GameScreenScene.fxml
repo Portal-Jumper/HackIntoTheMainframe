@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameScreenScene.GameScreenSceneController">
+   <children>
+      <Pane layoutX="130.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;" />
+      <Pane layoutX="380.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;" />
+      <Pane layoutX="630.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;" />
+      <Pane layoutX="880.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;" />
+      <Label alignment="CENTER" layoutX="111.0" layoutY="440.0" prefHeight="51.0" prefWidth="960.0" text="Label">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="567.0" layoutY="521.0" prefHeight="38.0" prefWidth="88.0" text="Answer:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="120.0" layoutX="534.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/PortalJumper/IdeaProjects/HackGame/src/Assets/spy-icon.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="571.0" layoutY="558.0" />
+   </children>
+</AnchorPane>

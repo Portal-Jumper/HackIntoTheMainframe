@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartScene.StartSceneController">
+   <children>
+      <Label fx:id="labelOne" layoutX="405.0" layoutY="97.0" text="HACK GAME">
+         <font>
+            <Font name="Droid Sans Mono" size="72.0" />
+         </font>
+      </Label>
+      <Button fx:id="tutorialButton" layoutX="695.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#onClick2" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #090a0c,        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),        linear-gradient(#20262b, #191d22),        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));; -fx-background-radius: 5,4,3,5;; -fx-background-insets: 0,1,2,0;; -fx-text-fill: white; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );; -fx-font-family: Arial; -fx-text-fill: linear-gradient(white, #d0d0d0);; -fx-font-size: 12; -fx-padding: 10 20 10 20;;" text="TUTORIAL" />
+      <ImageView fx:id="icon" fitHeight="86.0" fitWidth="86.0" layoutX="558.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/PortalJumper/IdeaProjects/HackGame/src/Assets/spy-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playButton" layoutX="305.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#onClick1" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #090a0c,        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),        linear-gradient(#20262b, #191d22),        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));; -fx-background-radius: 5,4,3,5;; -fx-background-insets: 0,1,2,0;; -fx-text-fill: white; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );; -fx-font-family: Arial; -fx-text-fill: linear-gradient(white, #d0d0d0);; -fx-font-size: 12; -fx-padding: 10 20 10 20;;" text="PLAY" />
+   </children>
+</AnchorPane>
