@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HackIntoTheMainframe.GameScreenController">
+   <children>
+      <Pane fx:id="pane1" layoutX="130.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;">
+         <children>
+            <Rectangle fx:id="backRectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="40.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+            <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="triangle1" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="number1" layoutX="90.0" layoutY="73.0" text="1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="shapeText1" alignment="CENTER" layoutX="14.0" layoutY="119.0" prefHeight="45.0" prefWidth="170.0" text="RECTANGLE" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="colorText1" alignment="CENTER" layoutX="16.0" layoutY="35.0" prefHeight="45.0" prefWidth="170.0" text="GREEN" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane fx:id="pane2" layoutX="380.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;">
+         <children>
+            <Rectangle fx:id="backRectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="40.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+            <Circle fx:id="circle2" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="triangle2" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="colorText2" alignment="CENTER" layoutX="16.0" layoutY="35.0" prefHeight="45.0" prefWidth="170.0" text="GREEN" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="number2" layoutX="90.0" layoutY="73.0" text="1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="shapeText2" alignment="CENTER" layoutX="14.0" layoutY="119.0" prefHeight="45.0" prefWidth="170.0" text="RECTANGLE" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane fx:id="pane3" layoutX="630.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;">
+         <children>
+            <Rectangle fx:id="backRectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="40.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+            <Circle fx:id="circle3" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="triangle3" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="colorText3" alignment="CENTER" layoutX="16.0" layoutY="35.0" prefHeight="45.0" prefWidth="170.0" text="GREEN" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="number3" layoutX="90.0" layoutY="73.0" text="1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="shapeText3" alignment="CENTER" layoutX="14.0" layoutY="119.0" prefHeight="45.0" prefWidth="170.0" text="RECTANGLE" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane fx:id="pane4" layoutX="880.0" layoutY="174.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9ea0b0;">
+         <children>
+            <Rectangle fx:id="backRectangle4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle fx:id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="40.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+            <Circle fx:id="circle4" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="triangle4" fill="DODGERBLUE" layoutX="100.0" layoutY="100.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="colorText4" alignment="CENTER" layoutX="16.0" layoutY="35.0" prefHeight="45.0" prefWidth="170.0" text="GREEN" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="number4" layoutX="90.0" layoutY="73.0" text="1">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="shapeText4" alignment="CENTER" layoutX="14.0" layoutY="119.0" prefHeight="45.0" prefWidth="170.0" text="RECTANGLE" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label fx:id="taskLabel" alignment="CENTER" layoutX="111.0" layoutY="420.0" prefHeight="50.0" prefWidth="960.0" text="Label">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="567.0" layoutY="480.0" prefHeight="38.0" prefWidth="88.0" text="Answer:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="120.0" layoutX="534.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Assets/spy-icon.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="answerTextField" layoutX="571.0" layoutY="520.0" />
+   </children>
+</AnchorPane>

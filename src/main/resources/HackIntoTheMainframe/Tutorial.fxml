@@ -6,16 +6,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TutorialScene.TutorialSceneController">
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HackIntoTheMainframe.TutorialController">
    <children>
       <ImageView fitHeight="500.0" fitWidth="400.0" layoutX="76.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/PortalJumper/IdeaProjects/HackGame/src/Assets/Tutorial1.PNG" />
+            <Image url="@Assets/Tutorial1.PNG" />
          </image>
       </ImageView>
       <ImageView fitHeight="500.0" fitWidth="400.0" layoutX="732.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/PortalJumper/IdeaProjects/HackGame/src/Assets/Tutorial2.PNG" />
+            <Image url="@Assets/Tutorial2.PNG" />
          </image>
       </ImageView>
       <Button fx:id="goBackButton" layoutX="500.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#goBack" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #090a0c,        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),        linear-gradient(#20262b, #191d22),        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0)); -fx-background-radius: 5,4,3,5; -fx-background-insets: 0,1,2,0; -fx-text-fill: white; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); -fx-font-family: Arial; -fx-text-fill: linear-gradient(white, #d0d0d0); -fx-font-size: 20; -fx-padding: 10 20 10 20;" text="Go Back">

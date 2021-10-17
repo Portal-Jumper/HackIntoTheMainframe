@@ -16,11 +16,11 @@
       </Label>
       <ImageView fitHeight="68.0" fitWidth="92.0" layoutX="555.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/PortalJumper/IdeaProjects/HackGame/src/Assets/spy-icon.png" />
+            <Image url="@Assets/spy-icon.png" />
          </image>
       </ImageView>
       <Button fx:id="playButton" layoutX="500.0" layoutY="400.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #090a0c,        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),        linear-gradient(#20262b, #191d22),        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));; -fx-background-radius: 5,4,3,5;; -fx-background-insets: 0,1,2,0;; -fx-text-fill: white; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );; -fx-font-family: Arial; -fx-text-fill: linear-gradient(white, #d0d0d0);; -fx-font-size: 12; -fx-padding: 10 20 10 20;;" text="TRY AGAIN" />
-      <Label layoutX="440.0" layoutY="531.0" text="Correct Answer Was : &quot;Green Square&quot;">
+      <Label fx:id="CorrectAnswerLabel" layoutX="440.0" layoutY="531.0" text="Correct Answer Was : &quot;Green Square&quot;">
          <font>
             <Font size="20.0" />
          </font>
