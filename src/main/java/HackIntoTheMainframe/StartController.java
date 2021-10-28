@@ -7,7 +7,7 @@ import java.io.IOException;
 public class StartController {
 
     public void initialize() {
-        App.resize800x600();
+        App.resize800x550();
     }
 
     @FXML

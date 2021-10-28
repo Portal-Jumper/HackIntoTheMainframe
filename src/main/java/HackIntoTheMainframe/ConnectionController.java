@@ -11,7 +11,7 @@ public class ConnectionController {
 
     Thread thread1 = new Thread(() -> {
         try {
-            Thread.sleep(1500);
+            Thread.sleep(2500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

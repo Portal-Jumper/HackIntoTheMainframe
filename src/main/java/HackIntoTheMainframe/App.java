@@ -43,9 +43,9 @@ public class App extends Application {
         stage.setHeight(600);
     }
 
-    static void resize800x600(){
+    static void resize800x550(){
         stage.setWidth(800);
-        stage.setHeight(600);
+        stage.setHeight(550);
     }
 
     public static void main(String[] args) {
